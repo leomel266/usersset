@@ -1,6 +1,6 @@
 .form {
   width: 100%;
-  max-width: 350px;
+  max-width: 400px;
   padding: 2em;
   background-color: #f96d00;
   position: relative;
@@ -10,8 +10,8 @@
 .form__x {
   position: absolute;
   right: 1em;
-  font-size: 1.5rem;
-  color: black;
+  font-size: 1.7rem;
+  color: white;
   top: 0.8em;
   cursor: pointer;
   transition: transform 100ms ease;
@@ -47,16 +47,18 @@
   padding: 0.5em 0.8em;
   border-radius: 0.2em;
   border: 1px solid #aaaa;
-  background-color: rgb(181, 185, 185);
+  background-color: #f2f2f2;
 }
 
 .form__btn {
   width: 100%;
   padding: 0.8em;
-  color: white;
-  background-color: #393e46;
-  transition: filter 100ms ease;
+  color: black;
+  background-color: #e2e1e1;
+  transition: filter 200ms ease;
   font-size: 1rem;
+  border-radius: 5px;
+  font-weight: 600;
 }
 
 .form__btn:hover {

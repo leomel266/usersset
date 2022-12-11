@@ -20,7 +20,7 @@ function App() {
       <div className='App__container'>
         <h1 className='App__title'>Users</h1>
         <button onClick={() => setCloseForm(false)} className='App__btn'>
-          <span className='App__span'>+</span> Open Form
+          <span className='App__span'>+</span> Create New User
         </button>
         <Toaster position='top-center' reverseOrder={false} />
       </div>
