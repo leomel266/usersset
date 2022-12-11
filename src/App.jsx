@@ -3,6 +3,7 @@ import "./App.css";
 import FormUser from "./components/FormUser";
 import UserCard from "./components/UserCard";
 import UseCrud from "./hooks/useCrud";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   const [closeForm, setCloseForm] = useState(true);
@@ -21,6 +22,7 @@ function App() {
         <button onClick={() => setCloseForm(false)} className='App__btn'>
           <span className='App__span'>+</span> Open Form
         </button>
+        <Toaster position='top-center' reverseOrder={false} />
       </div>
       <div className={`form-container ${closeForm && "close__form"}`}>
         <FormUser

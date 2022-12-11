@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import "../styles/formUser.css";
-import toast, { Toaster } from "react-hot-toast";
 
 const FormUser = ({
   createNewUser,
@@ -11,10 +10,6 @@ const FormUser = ({
   setCloseForm,
 }) => {
   const { register, reset, handleSubmit } = useForm();
-
-  const checkToast = () => {
-    toast.success("Successfully toasted!");
-  };
 
   useEffect(() => {
     reset(updateInfo);
@@ -27,7 +22,6 @@ const FormUser = ({
       //Update
       updateUserById(updateInfo.id, data);
       setUpdateInfo();
-      checkToast();
     } else {
       //Create
       createNewUser(data);
@@ -103,7 +97,6 @@ const FormUser = ({
       <button className='form__btn'>
         {updateInfo ? "Update" : "Create user"}
       </button>
-      <Toaster position='top-center' reverseOrder={false} />
     </form>
   );
 };
