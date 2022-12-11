@@ -39,7 +39,7 @@ const FormUser = ({
   return (
     <form className='form' onSubmit={handleSubmit(submit)}>
       <div onClick={() => setCloseForm(true)} className='form__x'>
-        x
+        <i class='fa-solid fa-circle-xmark'></i>
       </div>
       <h2 className='form__title'>
         {updateInfo ? "Update User" : "Create User"}
