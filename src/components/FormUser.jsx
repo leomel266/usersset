@@ -51,7 +51,7 @@ const FormUser = ({
         {updateInfo ? "Update User" : "Create User"}
       </h2>
       <div className='form__div'>
-        <i class='fa-solid fa-envelope form__item'></i>
+        <i className='fa-solid fa-envelope form__item'></i>
         <input
           className='form__input'
           type='email'
@@ -61,7 +61,7 @@ const FormUser = ({
         />
       </div>
       <div className='form__div'>
-        <i class='fa-solid fa-lock form__item'></i>
+        <i className='fa-solid fa-lock form__item'></i>
         <input
           className='form__input'
           type='password'
@@ -71,7 +71,7 @@ const FormUser = ({
         />
       </div>
       <div className='form__div'>
-        <i class='fa-solid fa-user form__item'></i>
+        <i className='fa-solid fa-user form__item'></i>
         <input
           className='form__input'
           type='text'
@@ -81,7 +81,7 @@ const FormUser = ({
         />
       </div>
       <div className='form__div'>
-        <i class='fa-regular fa-user form__item'></i>
+        <i className='fa-regular fa-user form__item'></i>
         <input
           className='form__input'
           type='text'
@@ -91,7 +91,7 @@ const FormUser = ({
         />
       </div>
       <div className='form__div'>
-        <i class='fa-solid fa-cake-candles form__item'></i>
+        <i className='fa-solid fa-cake-candles form__item'></i>
         <input
           className='form__input'
           type='date'

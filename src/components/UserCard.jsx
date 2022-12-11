@@ -15,14 +15,14 @@ const UserCard = ({ user, deleteUserById, setUpdateInfo, setCloseForm }) => {
         <li className='card__item'>
           <span className='card__span'>Email</span>
           <p>
-            <i class='fa-solid fa-envelope form__item'></i>
+            <i className='fa-solid fa-envelope form__item'></i>
             {user.email}
           </p>
         </li>
         <li className='card__item'>
           <span className='card__span'>Birthday</span>
           <p>
-            <i class='fa-solid fa-cake-candles form__item'></i>
+            <i className='fa-solid fa-cake-candles form__item'></i>
             {user.birthday}
           </p>
         </li>
