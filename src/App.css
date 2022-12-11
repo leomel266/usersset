@@ -1,0 +1,56 @@
+.user-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  width: 100%;
+  max-width: 1200px;
+  gap: 2em;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3em;
+}
+
+.form-container {
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0002;
+  z-index: 1;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px);
+}
+
+.close__form {
+  transform: translateX(-100%);
+}
+
+.App__btn {
+  background-color: #f96d00;
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.5em 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.App__span {
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.App__container {
+  display: flex;
+  align-items: flex-end;
+  align-content: center;
+}
+
+.App__title {
+  margin-right: auto;
+  padding: 1em;
+  color: #f2f2f2;
+}
