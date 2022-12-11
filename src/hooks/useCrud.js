@@ -13,7 +13,7 @@ const UseCrud = () => {
   };
 
   const deleteUserById = (id) => {
-    const URL = `http://users-crud.academlo.tech/users/${id}`;
+    const URL = `http://users-crud.academlo.tech/users/${id}/`;
     axios
       .delete(URL)
       .then(() => getAllUsers())
